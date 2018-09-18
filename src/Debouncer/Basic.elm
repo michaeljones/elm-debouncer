@@ -8,7 +8,7 @@ module Debouncer.Basic exposing
     , Msg, provideInput, emitNow, settleNow, cancel, cancelNow, update
     )
 
-{-| Ths module allows you to managing inputs that occur over time, so that they
+{-| This module allows you to managing inputs that occur over time, so that they
 get handed back to you, at future moments, grouped in a way that you have
 configured. Depending on the configuration you provide, you can use this to
 implemented debouncing, throttling, or other ways of managing inputs that occur
